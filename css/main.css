@@ -171,24 +171,22 @@ img.center2 {
 
 .box1 {
     order: 1;
-    flex-grow: 1;
+	grid-area: 1 / 1 / 1 / span 3; 
 }
 
 .box2 {
     order: 2;
-    flex-grow: 2;
+	grid-area: 2 / 1 / 2 / span 3;
 }
 
 
 .box3 {
     order: 3;
-    color: #fff;
-    flex-grow: 1;
+	grid-area: 3 / 1 / auto / span 3; 
 }
 
 .fbox1 {
     order: 1;
-    flex-grow: 1;
 }
 
 .fbox2 {
@@ -197,4 +195,10 @@ img.center2 {
 
 .fbox3 {
     order: 3;
+}
+
+.grid {
+	display: grid;
+	grid-template: repeat(3, 1fr);
+	grid-template-columns: auto auto auto;
 }
