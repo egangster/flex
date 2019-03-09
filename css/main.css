@@ -1,29 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Henny+Penny');
-
 body {
     margin: 0;
     padding: 0px;
-    color: #000;
+    color: #eeeeee;
     font-size: .9em;
     background-color: #148400;
 }
 
 nav {
-    font-family: 'Henny Penny', cursive;
-    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
     list-style: none;
     padding: 0;
 }
 
-p {
-    font-size: 2em;
-}
+p { font-size: 2em; }
 
 header {
-    font-family: 'Henny Penny', cursive;
-    font-size: 8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
     color: #ffff00; 
-    height: 1.4em;
 }
 
 ul.nav {
@@ -38,106 +33,30 @@ ul.nav li {
 
 video {
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
 }
 
-article {
-    font-family: verdana;
-    color: #000;
-    font-size: 1em;
-}
-
 footer {
-    font-family: verdana;
-    font-size: .65em;
-    min-height: 10em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0em 0em 0em 1em;
     text-align: left;
 }
 
-footer a:active {
-    color: #fff;
-}
-
-footer a:hover {
-    color: #fff;
-}
-
-footer a:visited {
-    color: #fff;
-}
-
-footer a:link {
-    color: #fff;
-}
-
 a {
+    color: #e6ff25;
     text-decoration: none;
 }
 
-nav a:link {
-    color: #ff7600;
-}
+nav a { color: #ff7600; }
 
-nav a:visited {
-    color: #ff7600;
-}
-
-nav a:hover {
-    color: #ff7600;
-}
-
-nav a:active {
-    color: #ff7600;
-}
-
-a:link {
-    color: #e6ff25;
-}
-
-a:visited {
-    color: #e6ff25;
-}
-
-a:hover {
-    color: #e6ff25;
-}
-
-a:active {
-    color: #e6ff25;
-}
+footer a { color: #fff; }
 
 img.center {
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    border-radius: 30%;
-    padding: 10px 10px 10px 10px;
-    border: 2px solid #ff8000;
-}
-
-img.center2 {
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
 }
 
-.curve {
-    border-radius: 10em;
-}
-
-.video-container {
-    position: relative;
-}
-
-.fc {
-    font-size: 2em;
-    color: #fff;
-}
+.video-container { position: relative; }
 
 .content {
     padding: 20px;
@@ -160,45 +79,14 @@ img.center2 {
     min-width: 1px;
 }
 
-.fbox {
-    padding: 10px;
-    margin: 10px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 3in;
-    min-width: 1px;
-}
-
 .box1 {
     order: 1;
-	grid-area: 1 / 1 / 1 / span 3; 
 }
 
 .box2 {
     order: 2;
-	grid-area: 2 / 1 / 2 / span 3;
 }
-
 
 .box3 {
     order: 3;
-	grid-area: 3 / 1 / auto / span 3; 
-}
-
-.fbox1 {
-    order: 1;
-}
-
-.fbox2 {
-    order: 2;
-}
-
-.fbox3 {
-    order: 3;
-}
-
-.grid {
-	display: grid;
-	grid-template: repeat(3, 1fr);
-	grid-template-columns: auto auto auto;
 }
